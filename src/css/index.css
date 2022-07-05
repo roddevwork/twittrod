@@ -1,10 +1,7 @@
-/** Main--login section   */
-.mian {
-  min-width: 320px;
-}
+/** Main-login section   */
 .main__login-container {
-  padding: 16px;
   min-width: 320px;
+  padding: 16px;
 }
 .main__login {
   width: 90%;
@@ -69,7 +66,6 @@
   font-weight: 700;
   color: var(--white);
   background: var(--brand-color);
-  /* para decir que hay mas texto: los ... */
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -87,7 +83,6 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
-
 .login__division {
   display: flex;
   justify-content: space-between;
@@ -128,9 +123,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  min-width: 320px;
   height: 328px;
   padding: 0;
-  min-width: 320px;
   background-image: url(../imgs/twitter-img-background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -143,22 +138,22 @@
   width: 100%;
   max-width: 436px;
   height: 100%;
-  filter: brightness(100);
   max-height: 436px;
+  filter: brightness(100);
 }
 /** Footer section */
 .footer {
   width: 100%;
+  min-width: 320px;
 
   padding: 20px;
   font-size: 1.1rem;
-  min-width: 320px;
 }
 .footer__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  flex-wrap: wrap;
 }
 .footer__list li {
   margin: 5px 10px;
