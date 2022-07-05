@@ -1,0 +1,241 @@
+/** Main--login section   */
+.mian {
+  min-width: 320px;
+}
+.main__login-container {
+  padding: 16px;
+  min-width: 320px;
+}
+.main__login {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.login__header-img {
+  position: relative;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+.header-img__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 64.57px;
+  height: 65.6px;
+  margin-bottom: 20px;
+  padding: 0 0 12px;
+  filter: invert(53%) sepia(24%) saturate(5153%) hue-rotate(179deg)
+    brightness(97%) contrast(93%);
+}
+.login__titles {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px 0;
+  font-family: var(--font-twCh);
+}
+.titles__title {
+  margin: 40px 0;
+  font-size: 40px;
+  font-weight: 900;
+}
+.titles__subtitle {
+  font-size: 2.3rem;
+  font-weight: 900;
+}
+.login__btns {
+  width: 100%;
+}
+.btns__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.btns__btn--white {
+  border: 1px solid var(--border-btn);
+  background: var(--white);
+}
+.btns__btn--white:hover {
+  background-color: var(--border-btn);
+}
+.btns__btn--blue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--white);
+  background: var(--brand-color);
+  /* para decir que hay mas texto: los ... */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.btns__img {
+  width: 18px;
+  height: 18px;
+}
+.btns__first-title {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+.btns__second-title {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.login__division {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 0 auto;
+  text-align: center;
+}
+.login__division div {
+  width: 45%;
+  border-top: 1px solid var(--border-btn);
+}
+.login__division span {
+  font-size: 1.5rem;
+}
+.login__text {
+  margin: 5px 0 20px;
+  font-size: 1.1rem;
+  color: var(--grey);
+}
+.text__link {
+  color: var(--brand-color);
+}
+.btns__btn--white-blue {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--brand-color);
+}
+.login__iniciar-sesion {
+  margin-top: 60px;
+}
+.login__iniciar-sesion h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+/** Background section  */
+.main__background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 328px;
+  padding: 0;
+  min-width: 320px;
+  background-image: url(../imgs/twitter-img-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.background__img {
+  margin: 0 auto;
+}
+.background__img img {
+  width: 100%;
+  max-width: 436px;
+  height: 100%;
+  filter: brightness(100);
+  max-height: 436px;
+}
+/** Footer section */
+.footer {
+  width: 100%;
+
+  padding: 20px;
+  font-size: 1.1rem;
+  min-width: 320px;
+}
+.footer__list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.footer__list li {
+  margin: 5px 10px;
+}
+.footer__list li a {
+  color: var(--grey);
+}
+/** Media  */
+@media screen and (min-width: 516px) {
+  .login__titles {
+    max-width: 630px;
+  }
+  .titles__title {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 6.4rem;
+  }
+  .btns__btn {
+    max-width: 530px;
+  }
+  .titles__subtitle {
+    width: 100%;
+    font-size: 3.1rem;
+  }
+  .login__division {
+    max-width: 530px;
+  }
+  .login__text {
+    max-width: 530px;
+  }
+}
+@media screen and (min-width: 1015px) {
+  main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    /* height: 90vh; */
+  }
+  .main__login-container {
+    width: 60%;
+    /* height: 90vh; */
+  }
+  .login__titles {
+    max-width: 630px;
+  }
+  .titles__title {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 6.4rem;
+  }
+  .titles__subtitle {
+    width: 100%;
+    font-size: 3.1rem;
+  }
+  .buttons__btn {
+    max-width: 530px;
+  }
+  .login__text {
+    max-width: 530px;
+  }
+  .login__division {
+    max-width: 530px;
+  }
+  .main__background {
+    width: 40%;
+    /* height: 90vh; */
+    height: 100vh;
+    /* background-size: cover; */
+  }
+  .header--icon__white {
+    margin: 0 auto;
+  }
+  .header--icon__white img {
+    width: 100%;
+    height: 100%;
+  }
+  /* .footer {
+    height: 10vh;
+  } */
+}
