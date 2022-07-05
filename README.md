@@ -1,6 +1,10 @@
-<h1>Hello Visitor</h1>
+<h3>Hello Visitor!!</h3>
 
 # Project: Twitter Clone 2022
+
+## Description:
+
+This is a practice of a website with Html and Css, using BEM methodology
 
 ## Website:
 
@@ -16,7 +20,7 @@
 
 ---
 
-## Description:
+## Full Description:
 
 It is a responsive project. That is not an exact copy. I tried to improve the design features. More orderly and understandable design. <br>
 There are 3 linked pages:<br>
@@ -29,9 +33,13 @@ In both cases if you press the "x" you can return to the home page.
 
 ---
 
-<h1>Hola Visitante</h1>
+<h3>Hola Visitante!!</h3>
 
 # Proyecto: clone Twitter 2022
+
+## Descripcion:
+
+Esta es una practica de un sitoweb con Html y Css, usando metodología BEM
 
 ## Sito Web:
 
