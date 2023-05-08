@@ -14,9 +14,21 @@
 
 - [Home: index.html](./index.html)
 
+
+
+---
+
 - [Login: login.html](/src/pages/login.html)
 
+<img src="./src/imgs/login-tw.jpg" border="5px solid red"/>
+
+---
+
 - [Register: register.html](/src/pages/register.html)
+
+<kbd>
+  <img src="./src/imgs/register-tw.jpg" />
+</kbd>
 
 ## Author:
 
