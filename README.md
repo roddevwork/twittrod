@@ -20,7 +20,7 @@
 
 ## Author:
 
-- Rodrigo Cardona
+- Rodrigo C
 
 ---
 
@@ -59,7 +59,7 @@
 
 ## Autor:
 
-- Rodrigo Cardona
+- Rodrigo C
 
 ---
 
